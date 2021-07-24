@@ -1,0 +1,40 @@
+https://dashboard.heroku.com/login
+-------------------------------------
+There are two ways to deploy on Heroku =>
+You can try any one.
+
+1.Heroku UI Application Create and Connect =>
+- Create new app on Web : https://dashboard.heroku.com/new-app
+- Open code in pycharm, Go to Terminal
+- git init
+- heroku git:remote -a medhavimlapp
+--- pip freeze > requirements.txt
+OR
+--- pipreqs --force
+OR
+--- pigar
+- pip install -r requirements.txt
+- git add .
+- git commit -am "This is Medhavi's App"
+- git push heroku master
+- heroku logs --tail <=Used to check log
+--------------------------------------------------------
+
+2. Heroku CLI Application Create and Connect =>
+- heroku login
+- heroku create app_name
+- git init
+--- pip freeze > requirements.txt
+OR
+--- pipreqs --force
+OR
+--- pigar
+- pip install -r requirements.txt
+- git add .
+- git commit -am "first commit"
+--- git remote add origin https://git.heroku.com/app_name.git
+--- git push origin master
+OR
+--- heroku git:remote -a app_name
+--- git push heroku master
+--------------------------------------------------------

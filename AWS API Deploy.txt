@@ -1,0 +1,11 @@
+https://aws.amazon.com/
+
+1. Create an account
+2. Build a web app
+3. Give the name of the application, give platform as python, and select the option to upload your code.
+4. Select files and create .zip of those.
+5. Deploy this .zip folder
+6. Click on Create App.
+7. Then it will take you to AWS Dashboard.
+8. If Health is OK then everything is Fine !
+9. In Event Tab, you will see a Application URL which you can Test.
